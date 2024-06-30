@@ -1,4 +1,4 @@
-package org.cis1200.checkers;
+package org.game.checkers;
 
 import java.awt.*;
 import java.awt.image.BufferedImage;
@@ -8,7 +8,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
-import org.cis1200.GameBoard;
+import org.game.GameBoard;
 
 
 public class RunCheckers implements Runnable {
@@ -119,7 +119,7 @@ public class RunCheckers implements Runnable {
     @SuppressWarnings("serial")
     class InfoScreen extends JPanel {
         private static BufferedImage img;
-        public static final String IMG_FILE = "org/cis1200/checkers/files/frontPage.png";
+        public static final String IMG_FILE = "org/game/checkers/files/frontPage.png";
 
         public InfoScreen() {
             try {

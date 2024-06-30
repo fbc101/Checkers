@@ -1,4 +1,4 @@
-package org.cis1200.checkers;
+package org.game.checkers;
 
 import org.junit.jupiter.api.*;
 import static org.junit.jupiter.api.Assertions.*;
@@ -10,7 +10,7 @@ public class GameTest {
     @BeforeEach
     public void setUp() {
         ch = new Checkers();
-        ch.changeGameFile("org/cis1200/checkers/files/gameStateTEST3.csv");
+        ch.changeGameFile("org/game/checkers/files/gameStateTEST3.csv");
         ch.reset();
     }
 

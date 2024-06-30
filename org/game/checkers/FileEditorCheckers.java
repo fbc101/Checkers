@@ -1,4 +1,4 @@
-package org.cis1200.checkers;
+package org.game.checkers;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

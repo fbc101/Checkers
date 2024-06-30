@@ -1,4 +1,4 @@
-package org.cis1200;
+package org.game;
 
 import javax.swing.*;
 
@@ -10,7 +10,7 @@ public class Game {
      */
     public static void main(String[] args) {
         // Set the game you want to run here
-        Runnable game = new org.cis1200.checkers.RunCheckers();
+        Runnable game = new org.game.checkers.RunCheckers();
 
         SwingUtilities.invokeLater(game);
     }

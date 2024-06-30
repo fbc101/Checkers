@@ -1,4 +1,4 @@
-package org.cis1200;
+package org.game;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -9,7 +9,7 @@ import java.io.IOException;
 import javax.imageio.ImageIO;
 import javax.swing.*;
 
-import org.cis1200.checkers.Checkers;
+import org.game.checkers.Checkers;
 
 /*
  * INVARIANTS:
@@ -108,16 +108,16 @@ public class GameBoard extends JPanel {
                 g.drawOval(7, 7, 60, 60);
             }
             if (soldier == 1) {
-                String imgFile = "org/cis1200/checkers/files/redSoldier.png";
+                String imgFile = "org/game/checkers/files/redSoldier.png";
                 drawImage(img, imgFile, g);
             } else if (soldier == 7) {
-                String imgFile = "org/cis1200/checkers/files/redKing.png";
+                String imgFile = "org/game/checkers/files/redKing.png";
                 drawImage(img, imgFile, g);
             } else if (soldier == 2) {
-                String imgFile = "org/cis1200/checkers/files/blackSoldier.png";
+                String imgFile = "org/game/checkers/files/blackSoldier.png";
                 drawImage(img, imgFile, g);
             } else if (soldier == 8) {
-                String imgFile = "org/cis1200/checkers/files/blackKing.png";
+                String imgFile = "org/game/checkers/files/blackKing.png";
                 drawImage(img, imgFile, g);
             } else if (soldier == 0) {
                 g.setColor(getBackground());

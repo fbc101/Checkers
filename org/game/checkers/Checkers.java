@@ -1,4 +1,4 @@
-package org.cis1200.checkers;
+package org.game.checkers;
 
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -32,7 +32,7 @@ public class Checkers {
 
     private int moves;
     private Map<Integer, List<String>> history;
-    private static String gameStateFile = "org/cis1200/checkers/files/gameState.csv";
+    private static String gameStateFile = "org/game/checkers/files/gameState.csv";
 
     /*
      * Constructor
